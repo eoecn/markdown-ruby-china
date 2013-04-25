@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = ""
   s.authors     = ["Ruby-China team", "David Chen"]
   s.email       = 'mvjome@gmail.com'
-  s.homepage    = 'http://rubygems.org/gems/markdown-ruby-china'
+  s.homepage    = 'https://github.com/eoecn/markdown-ruby-china'
   s.require_paths = ["lib"]
 
   s.add_dependency "rails_autolink"
