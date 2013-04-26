@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'markdown-ruby-china'
-  s.version     = '0.1'
+  s.version     = '0.2'
   s.date        = '2013-04-17'
   s.summary     = ""
   s.description = ""
@@ -14,4 +14,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'md_emoji'
   s.add_dependency 'pygments.rb'
   s.add_dependency "nokogiri"
+
+  s.files = `git ls-files`.split("\n")
 end
