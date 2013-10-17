@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = ""
   s.authors     = ["Ruby-China team", "David Chen","Iceskysl"]
   s.email       = 'mvjome@gmail.com'
-  s.homepage    = 'http://rubygems.org/gems/markdown-ruby-china'
+  s.homepage    = 'https://github.com/eoecn/markdown-ruby-china'
   s.require_paths = ["lib"]
 
   s.add_dependency "rails_autolink"
@@ -14,4 +14,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'md_emoji'
   s.add_dependency 'pygments.rb'
   s.add_dependency "nokogiri"
+
+  s.files = `git ls-files`.split("\n")
 end
