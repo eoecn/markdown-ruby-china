@@ -233,6 +233,7 @@ class MarkdownTopicConverter < MarkdownConverter
 
   def initialize
     @converter = Redcarpet::Markdown.new(Redcarpet::Render::HTMLwithTopic.new, {
+        :tables => true,
         :autolink => true,
         :fenced_code_blocks => true,
         :strikethrough => true,
