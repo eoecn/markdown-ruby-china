@@ -1,11 +1,11 @@
 Gem::Specification.new do |s|
   s.name        = 'markdown-ruby-china'
-  s.version     = '0.2'
+  s.version     = '0.3'
   s.date        = '2013-10-17'
   s.summary     = ""
   s.description = ""
   s.authors     = ["Ruby-China team", "David Chen","Iceskysl"]
-  s.email       = 'mvjome@gmail.com'
+  s.email       = 'iceskysl@gmail.com'
   s.homepage    = 'https://github.com/eoecn/markdown-ruby-china'
   s.require_paths = ["lib"]
 
